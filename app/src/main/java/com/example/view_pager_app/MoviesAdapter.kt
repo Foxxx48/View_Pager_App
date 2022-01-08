@@ -12,19 +12,19 @@ class MoviesAdapter (fragmentActivity: FragmentActivity): FragmentStateAdapter(f
     override fun createFragment(position: Int): Fragment {
         return when (position) {
             0 -> {
-                BadBoys()
+                Dune()
             }
             1 -> {
-                Avengers()
+                DarkKnight()
             }
             2 -> {
-                Fast()
+                DoNotLookUp()
             }
             3 -> {
-                Transformers()
+                TrueDetective()
             }
             else -> {
-                BadBoys()
+                Dune()
             }
         }
     }

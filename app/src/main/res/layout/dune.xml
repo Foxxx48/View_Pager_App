@@ -9,7 +9,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".Fast">
+        tools:context=".Dune">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -32,7 +32,7 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/fast">
+                    android:background="@drawable/dune">
 
                     <androidx.appcompat.widget.AppCompatButton
                         android:id="@+id/containedIconButton"
@@ -52,7 +52,7 @@
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         android:padding="10dp"
-                        android:text="@string/fast"
+                        android:text="@string/dune"
                         android:background="@color/black"
                         android:textColor="@color/white"/>
 

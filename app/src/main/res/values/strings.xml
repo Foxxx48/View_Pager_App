@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">ViewPager</string>
     <string name="play">ПОСМОТРЕТЬ</string>
-    <string name="badBoys">ПЛОХИЕ ПАРНИ</string>
-    <string name="avengers">МСТИТЕЛИ</string>
-    <string name="transformers">ТРАНСФОРМЕРЫ</string>
-    <string name="fast">ФОРСАЖ 9</string>
+    <string name="do_not_look_up">НЕ СМОТРИ НА ВЕРХ</string>
+    <string name="dark_knight">ТЁМНЫЙ РЫЦАРЬ</string>
+    <string name="true_detective">НАСТОЯЩИЙ ДЕТЕКТИВ</string>
+    <string name="dune">ДЮНА</string>
 
 </resources>

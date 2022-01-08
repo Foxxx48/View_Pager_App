@@ -7,7 +7,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".Avengers">
+        tools:context=".DarkKnight">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -30,7 +30,7 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/avengers">
+                    android:background="@drawable/dark_knight">
 
                     <androidx.appcompat.widget.AppCompatButton
                         android:id="@+id/containedIconButton"
@@ -50,7 +50,7 @@
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         android:padding="10dp"
-                        android:text="@string/avengers"
+                        android:text="@string/dark_knight"
                         android:background="@color/black"
                         android:textColor="@color/white"/>
 

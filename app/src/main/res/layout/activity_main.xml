@@ -9,26 +9,33 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabSlider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/slider"
+            
+            app:tabMode="scrollable"
+            app:tabPaddingBottom="8dp"
+            app:tabPaddingTop="15dp"
+            app:tabIndicatorHeight="3dp"/>
+<!--            app:tabIndicatorColor="@android:color/holo_orange_dark"-->
+<!--            app:tabTextColor="@android:color/white"-->
+<!--            app:tabSelectedTextColor="@android:color/holo_orange_dark"-->
+<!--            app:tabIconTint="@color/icon_tab"-->
+<!--            app:tabRippleColor="@android:color/holo_orange_dark"/>-->
+
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/slider"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_margin="10dp"/>
-
-        <com.google.android.material.tabs.TabLayout
-            android:id="@+id/tabSlider"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/slider"
-            android:layout_marginTop="3dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:tabPaddingTop="15dp"
-            app:tabPaddingBottom="8dp"
-            app:tabMode="fixed"
-            app:tabBackground="@drawable/tabs"
-            app:tabIndicatorHeight="0dp"/>
 
 
 

@@ -24,19 +24,19 @@ class MainActivity : AppCompatActivity() {
                     TabLayoutMediator.TabConfigurationStrategy { tab, position -> when (position) {
                         0 -> {
                             tab.setIcon(R.drawable.play)
-                            tab.text = getString(R.string.badBoys)
+                            tab.text = getString(R.string.dune)
                         }
                         1 -> {
                             tab.setIcon(R.drawable.play)
-                            tab.text = getString(R.string.avengers)
+                            tab.text = getString(R.string.dark_knight)
                         }
                         2 -> {
                             tab.setIcon(R.drawable.play)
-                            tab.text = getString(R.string.fast)
+                            tab.text = getString(R.string.do_not_look_up)
                         }
                         3 -> {
                             tab.setIcon(R.drawable.play)
-                            tab.text = getString(R.string.transformers)
+                            tab.text = getString(R.string.true_detective)
                         }
                     }
 
